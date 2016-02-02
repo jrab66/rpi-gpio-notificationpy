@@ -13,7 +13,7 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-use
+##use
 ====================
 
 you cant send email notifications when a GPIO has a change of state.
@@ -26,7 +26,7 @@ state.py reads the status of the GPIO while emails.py sends a message when a cha
 you can add the line to /etc/rc.local to execute the command at reboot without interaction.
 
 Example :
-<code>
+`code(fffffffff sdfsdf)`
 #!/bin/sh -e
 #
 # rc.local
@@ -44,4 +44,4 @@ Example :
 python /root/emailgpio/state.py
 
 exit 0
-</code>
+`code()`
