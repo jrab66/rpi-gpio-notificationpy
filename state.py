@@ -25,5 +25,5 @@ while True:
     #assuming the script to call is long enough we can ignore bouncing
     if (GPIO.input(buttonPin)):
         #this is the script that will be called (as root)
-        os.system("python /root/emailgpio/emails.py")
+        os.system("python /root/emailgpio/emails.py")  #Directory change it for yours.
 	GPIO.setup(buttonPin,GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
