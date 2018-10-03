@@ -2,7 +2,7 @@ rpi-gpio-notificationpy
 ====================
 
 Written by Jose Barahona
-www.github.com/jrab66
+
 February 02, 2016
 
 This program is free software: you can redistribute it and/or modify it under the terms of the
